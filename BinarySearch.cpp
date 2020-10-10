@@ -10,7 +10,7 @@ int binary_search(int *ar, int l, int r, int a)
         if (ar[m] == a) 
             return m; 
   
-        if (ar[m] < a) 
+        else if (ar[m] < a) 
             l = m + 1; 
   
         else
