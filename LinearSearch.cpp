@@ -5,7 +5,7 @@ using namespace std;
 int linear_search(int a,int n,int *ar)
 {
 	int i;
-	for(i=0;i<n;i++)
+	for(i=0;i<=n-1;i++)
 	{
 		if(ar[i]==a)
 		{
